@@ -1,0 +1,114 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\localadmin\\source\\repos\\FinanceOperations8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AOSService\\PackagesLocalDirectory\\bin\\XppSource\\Demo\\AxClass_AssetParameters_Extension.xpp||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AOSService\\PackagesLocalDirectory\\bin\\XppSource\\Demo\\AxClass_NumberSeqJob.xpp||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4842FCAD-8699-4DAC-B540-45E5A9D4A0ED}|FinanceOperations\\FinanceOperations.rnrproj|C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxForm\\EmployeeTableForm.xml||{7DCB09FF-3066-475F-9286-662C3C505513}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AOSService\\PackagesLocalDirectory\\bin\\XppSource\\Foundation\\AxTable_AssetParameters.xpp||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AOSService\\PackagesLocalDirectory\\ApplicationSuite\\Foundation\\AxTable\\AssetParameters.xml||{7DCB09FF-3066-475F-9286-662C3C505513}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AOSService\\PackagesLocalDirectory\\bin\\XppSource\\Demo\\AxClass_EmplNumberSeq.xpp||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssetParameters_Extension.xpp",
+              "DocumentMoniker": "C:\\AOSService\\PackagesLocalDirectory\\bin\\XppSource\\Demo\\AxClass_AssetParameters_Extension.xpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AOSService\\PackagesLocalDirectory\\bin\\XppSource\\Demo\\AxClass_AssetParameters_Extension.xpp",
+              "ToolTip": "C:\\AOSService\\PackagesLocalDirectory\\bin\\XppSource\\Demo\\AxClass_AssetParameters_Extension.xpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AOSService\\PackagesLocalDirectory\\bin\\XppSource\\Demo\\AxClass_AssetParameters_Extension.xpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-25T12:42:45.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeTableForm",
+              "DocumentMoniker": "C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxForm\\EmployeeTableForm.xml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxForm\\EmployeeTableForm.xml",
+              "ToolTip": "C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxForm\\EmployeeTableForm.xml\r\nType: Form\r\nModel: Demo",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "OverriddenToolTip": "C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxForm\\EmployeeTableForm.xml\r\nType: Form\r\nModel: Demo",
+              "WhenOpened": "2025-11-25T12:31:27.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NumberSeqJob.xpp",
+              "DocumentMoniker": "C:\\AOSService\\PackagesLocalDirectory\\bin\\XppSource\\Demo\\AxClass_NumberSeqJob.xpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AOSService\\PackagesLocalDirectory\\bin\\XppSource\\Demo\\AxClass_NumberSeqJob.xpp",
+              "ToolTip": "C:\\AOSService\\PackagesLocalDirectory\\bin\\XppSource\\Demo\\AxClass_NumberSeqJob.xpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AOSService\\PackagesLocalDirectory\\bin\\XppSource\\Demo\\AxClass_NumberSeqJob.xpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-25T12:02:37.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssetParameters.xpp",
+              "DocumentMoniker": "C:\\AOSService\\PackagesLocalDirectory\\bin\\XppSource\\Foundation\\AxTable_AssetParameters.xpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AOSService\\PackagesLocalDirectory\\bin\\XppSource\\Foundation\\AxTable_AssetParameters.xpp",
+              "ToolTip": "C:\\AOSService\\PackagesLocalDirectory\\bin\\XppSource\\Foundation\\AxTable_AssetParameters.xpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AOSService\\PackagesLocalDirectory\\bin\\XppSource\\Foundation\\AxTable_AssetParameters.xpp",
+              "ViewState": "AgIAABQCAAAAAAAAAAAMwB4CAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-25T12:18:06.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssetParameters",
+              "DocumentMoniker": "C:\\AOSService\\PackagesLocalDirectory\\ApplicationSuite\\Foundation\\AxTable\\AssetParameters.xml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AOSService\\PackagesLocalDirectory\\ApplicationSuite\\Foundation\\AxTable\\AssetParameters.xml",
+              "ToolTip": "C:\\AOSService\\PackagesLocalDirectory\\ApplicationSuite\\Foundation\\AxTable\\AssetParameters.xml\r\nType: Table\r\nModel: Foundation",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "OverriddenToolTip": "C:\\AOSService\\PackagesLocalDirectory\\ApplicationSuite\\Foundation\\AxTable\\AssetParameters.xml\r\nType: Table\r\nModel: Foundation",
+              "WhenOpened": "2025-11-25T12:17:48.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmplNumberSeq.xpp",
+              "DocumentMoniker": "C:\\AOSService\\PackagesLocalDirectory\\bin\\XppSource\\Demo\\AxClass_EmplNumberSeq.xpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AOSService\\PackagesLocalDirectory\\bin\\XppSource\\Demo\\AxClass_EmplNumberSeq.xpp",
+              "ToolTip": "C:\\AOSService\\PackagesLocalDirectory\\bin\\XppSource\\Demo\\AxClass_EmplNumberSeq.xpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AOSService\\PackagesLocalDirectory\\bin\\XppSource\\Demo\\AxClass_EmplNumberSeq.xpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-25T11:56:08.34Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
