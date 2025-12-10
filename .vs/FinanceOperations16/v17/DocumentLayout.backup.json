@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\localadmin\\source\\repos\\FinanceOperations16\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4842FCAD-8699-4DAC-B540-45E5A9D4A0ED}|FinanceOperations\\FinanceOperations.rnrproj|C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxMenuExtension\\AccountsPayable.Demo.xml||{7DCB09FF-3066-475F-9286-662C3C505513}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4842FCAD-8699-4DAC-B540-45E5A9D4A0ED}|FinanceOperations\\FinanceOperations.rnrproj|C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxMenuItemOutput\\CustTransReportMenu.xml||{7DCB09FF-3066-475F-9286-662C3C505513}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4842FCAD-8699-4DAC-B540-45E5A9D4A0ED}|FinanceOperations\\FinanceOperations.rnrproj|C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxReport\\SalesCommissionReport.xml||{7DCB09FF-3066-475F-9286-662C3C505513}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4842FCAD-8699-4DAC-B540-45E5A9D4A0ED}|FinanceOperations\\FinanceOperations.rnrproj|C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxReport\\CustTransReport.xml||{7DCB09FF-3066-475F-9286-662C3C505513}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4842FCAD-8699-4DAC-B540-45E5A9D4A0ED}|FinanceOperations\\FinanceOperations.rnrproj|C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxTable\\CustTransTmp.xml||{7DCB09FF-3066-475F-9286-662C3C505513}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountsPayable.Demo",
+              "DocumentMoniker": "C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxMenuExtension\\AccountsPayable.Demo.xml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxMenuExtension\\AccountsPayable.Demo.xml",
+              "ToolTip": "C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxMenuExtension\\AccountsPayable.Demo.xml\r\nType: MenuExtension\r\nModel: Demo",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "OverriddenToolTip": "C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxMenuExtension\\AccountsPayable.Demo.xml\r\nType: MenuExtension\r\nModel: Demo",
+              "WhenOpened": "2025-12-10T07:33:28.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustTransReportMenu",
+              "DocumentMoniker": "C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxMenuItemOutput\\CustTransReportMenu.xml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxMenuItemOutput\\CustTransReportMenu.xml",
+              "ToolTip": "C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxMenuItemOutput\\CustTransReportMenu.xml\r\nType: MenuItemOutput\r\nModel: Demo",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "OverriddenToolTip": "C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxMenuItemOutput\\CustTransReportMenu.xml\r\nType: MenuItemOutput\r\nModel: Demo",
+              "WhenOpened": "2025-12-10T07:37:42.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SalesCommissionReport",
+              "DocumentMoniker": "C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxReport\\SalesCommissionReport.xml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxReport\\SalesCommissionReport.xml",
+              "ToolTip": "C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxReport\\SalesCommissionReport.xml\r\nType: Report\r\nModel: Demo",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "OverriddenToolTip": "C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxReport\\SalesCommissionReport.xml\r\nType: Report\r\nModel: Demo",
+              "WhenOpened": "2025-12-10T07:33:10.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustTransReport",
+              "DocumentMoniker": "C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxReport\\CustTransReport.xml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxReport\\CustTransReport.xml",
+              "ToolTip": "C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxReport\\CustTransReport.xml\r\nType: Report\r\nModel: Demo",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "OverriddenToolTip": "C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxReport\\CustTransReport.xml\r\nType: Report\r\nModel: Demo",
+              "WhenOpened": "2025-12-10T07:22:00.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustTransTmp",
+              "DocumentMoniker": "C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxTable\\CustTransTmp.xml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxTable\\CustTransTmp.xml",
+              "ToolTip": "C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxTable\\CustTransTmp.xml\r\nType: Table\r\nModel: Demo",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "OverriddenToolTip": "C:\\AOSService\\PackagesLocalDirectory\\Demo\\Demo\\AxTable\\CustTransTmp.xml\r\nType: Table\r\nModel: Demo",
+              "WhenOpened": "2025-12-10T07:20:56.291Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
