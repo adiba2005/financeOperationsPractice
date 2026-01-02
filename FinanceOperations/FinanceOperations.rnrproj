@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <BuildTasksDirectory Condition=" '$(BuildTasksDirectory)' == ''">$(MSBuildProgramFiles32)\MSBuild\Microsoft\Dynamics\AX</BuildTasksDirectory>
+    <Model>Demo</Model>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <OutputPath>bin</OutputPath>
+    <SchemaVersion>2.0</SchemaVersion>
+    <GenerateCrossReferences>True</GenerateCrossReferences>
+    <RunAppCheckerRules>False</RunAppCheckerRules>
+    <LogAppcheckerDiagsAsErrors>False</LogAppcheckerDiagsAsErrors>
+    <DeployOnline>False</DeployOnline>
+    <ProjectGuid>{4842fcad-8699-4dac-b540-45e5a9d4a0ed}</ProjectGuid>
+    <Name>FinanceOperations</Name>
+    <RootNamespace>FinanceOperations</RootNamespace>
+    <StartupObject>Rama_TaxInvoiceMenu</StartupObject>
+    <StartupType>MenuItemOutput</StartupType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <Configuration>Debug</Configuration>
+    <DBSyncInBuild>True</DBSyncInBuild>
+    <GenerateFormAdaptors>False</GenerateFormAdaptors>
+    <Company>
+    </Company>
+    <Partition>initial</Partition>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DataEntityExpandParentChildRelations>False</DataEntityExpandParentChildRelations>
+    <DataEntityUseLabelTextAsFieldName>False</DataEntityUseLabelTextAsFieldName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Base Enums\" />
+    <Folder Include="Classes\" />
+    <Folder Include="Display Menu Items\" />
+    <Folder Include="EDT Dates\" />
+    <Folder Include="EDT Integer64s\" />
+    <Folder Include="EDT Strings\" />
+    <Folder Include="Form Extensions\" />
+    <Folder Include="Forms\" />
+    <Folder Include="Label Files\" />
+    <Folder Include="Menu Extensions\" />
+    <Folder Include="Output Menu Items\" />
+    <Folder Include="Reports\" />
+    <Folder Include="Simple Queries\" />
+    <Folder Include="Table Extensions\" />
+    <Folder Include="Tables\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AxClass\AssetParameters_Extension">
+      <SubType>Content</SubType>
+      <Name>AssetParameters_Extension</Name>
+      <Link>Classes\AssetParameters_Extension</Link>
+    </Content>
+    <Content Include="AxClass\CustTableContract">
+      <SubType>Content</SubType>
+      <Name>CustTableContract</Name>
+      <Link>Classes\CustTableContract</Link>
+    </Content>
+    <Content Include="AxClass\CustTableDP">
+      <SubType>Content</SubType>
+      <Name>CustTableDP</Name>
+      <Link>Classes\CustTableDP</Link>
+    </Content>
+    <Content Include="AxClass\CustTransDataContract">
+      <SubType>Content</SubType>
+      <Name>CustTransDataContract</Name>
+      <Link>Classes\CustTransDataContract</Link>
+    </Content>
+    <Content Include="AxClass\CustTransDP">
+      <SubType>Content</SubType>
+      <Name>CustTransDP</Name>
+      <Link>Classes\CustTransDP</Link>
+    </Content>
+    <Content Include="AxClass\EmplNumberSeq">
+      <SubType>Content</SubType>
+      <Name>EmplNumberSeq</Name>
+      <Link>Classes\EmplNumberSeq</Link>
+    </Content>
+    <Content Include="AxClass\EmployeeTableInsertJob">
+      <SubType>Content</SubType>
+      <Name>EmployeeTableInsertJob</Name>
+      <Link>Classes\EmployeeTableInsertJob</Link>
+    </Content>
+    <Content Include="AxClass\MyDialog">
+      <SubType>Content</SubType>
+      <Name>MyDialog</Name>
+      <Link>Classes\MyDialog</Link>
+    </Content>
+    <Content Include="AxClass\MyPurchCreateOrder_InventLocationIdField_Extension">
+      <SubType>Content</SubType>
+      <Name>MyPurchCreateOrder_InventLocationIdField_Extension</Name>
+      <Link>Classes\MyPurchCreateOrder_InventLocationIdField_Extension</Link>
+    </Content>
+    <Content Include="AxClass\MyPurchCreateOrder_InventSiteIdField_Extension">
+      <SubType>Content</SubType>
+      <Name>MyPurchCreateOrder_InventSiteIdField_Extension</Name>
+      <Link>Classes\MyPurchCreateOrder_InventSiteIdField_Extension</Link>
+    </Content>
+    <Content Include="AxClass\MyPurchTable_NumberSeq_Extension">
+      <SubType>Content</SubType>
+      <Name>MyPurchTable_NumberSeq_Extension</Name>
+      <Link>Classes\MyPurchTable_NumberSeq_Extension</Link>
+    </Content>
+    <Content Include="AxClass\NumberSeqJob">
+      <SubType>Content</SubType>
+      <Name>NumberSeqJob</Name>
+      <Link>Classes\NumberSeqJob</Link>
+    </Content>
+    <Content Include="AxClass\Rama_TaxInvoiceContract">
+      <SubType>Content</SubType>
+      <Name>Rama_TaxInvoiceContract</Name>
+      <Link>Classes\Rama_TaxInvoiceContract</Link>
+    </Content>
+    <Content Include="AxClass\Rama_TaxInvoiceDP">
+      <SubType>Content</SubType>
+      <Name>Rama_TaxInvoiceDP</Name>
+      <Link>Classes\Rama_TaxInvoiceDP</Link>
+    </Content>
+    <Content Include="AxClass\SalesCommissionContract">
+      <SubType>Content</SubType>
+      <Name>SalesCommissionContract</Name>
+      <Link>Classes\SalesCommissionContract</Link>
+    </Content>
+    <Content Include="AxClass\SalesCommissionDP">
+      <SubType>Content</SubType>
+      <Name>SalesCommissionDP</Name>
+      <Link>Classes\SalesCommissionDP</Link>
+    </Content>
+    <Content Include="AxClass\SalesCommissionReportController">
+      <SubType>Content</SubType>
+      <Name>SalesCommissionReportController</Name>
+      <Link>Classes\SalesCommissionReportController</Link>
+    </Content>
+    <Content Include="AxEdt\EmplBirthDate">
+      <SubType>Content</SubType>
+      <Name>EmplBirthDate</Name>
+      <Link>EDT Dates\EmplBirthDate</Link>
+    </Content>
+    <Content Include="AxEdt\EmplId">
+      <SubType>Content</SubType>
+      <Name>EmplId</Name>
+      <Link>EDT Integer64s\EmplId</Link>
+    </Content>
+    <Content Include="AxEdt\EmplJoiningDate">
+      <SubType>Content</SubType>
+      <Name>EmplJoiningDate</Name>
+      <Link>EDT Dates\EmplJoiningDate</Link>
+    </Content>
+    <Content Include="AxEdt\EmplNames">
+      <SubType>Content</SubType>
+      <Name>EmplNames</Name>
+      <Link>EDT Strings\EmplNames</Link>
+    </Content>
+    <Content Include="AxEdt\NumberSeqGroup">
+      <SubType>Content</SubType>
+      <Name>NumberSeqGroup</Name>
+      <Link>EDT Strings\NumberSeqGroup</Link>
+    </Content>
+    <Content Include="AxEdt\NumberSeqID">
+      <SubType>Content</SubType>
+      <Name>NumberSeqID</Name>
+      <Link>EDT Strings\NumberSeqID</Link>
+    </Content>
+    <Content Include="AxEdt\PayElementID">
+      <SubType>Content</SubType>
+      <Name>PayElementID</Name>
+      <Link>EDT Strings\PayElementID</Link>
+    </Content>
+    <Content Include="AxEnum\EmpGenderEDT">
+      <SubType>Content</SubType>
+      <Name>EmpGenderEDT</Name>
+      <Link>Base Enums\EmpGenderEDT</Link>
+    </Content>
+    <Content Include="AxEnum\Relations">
+      <SubType>Content</SubType>
+      <Name>Relations</Name>
+      <Link>Base Enums\Relations</Link>
+    </Content>
+    <Content Include="AxFormExtension\InventSite.Demo">
+      <SubType>Content</SubType>
+      <Name>InventSite.Demo</Name>
+      <Link>Form Extensions\InventSite.Demo</Link>
+    </Content>
+    <Content Include="AxForm\EmplFamilyForm">
+      <SubType>Content</SubType>
+      <Name>EmplFamilyForm</Name>
+      <Link>Forms\EmplFamilyForm</Link>
+    </Content>
+    <Content Include="AxForm\EmployeeTableForm">
+      <SubType>Content</SubType>
+      <Name>EmployeeTableForm</Name>
+      <Link>Forms\EmployeeTableForm</Link>
+    </Content>
+    <Content Include="AxLabelFile\LabelFile1_en-US">
+      <SubType>Content</SubType>
+      <Name>LabelFile1_en-US</Name>
+      <Link>Label Files\LabelFile1_en-US</Link>
+    </Content>
+    <Content Include="AxMenuExtension\AccountsPayable.Demo">
+      <SubType>Content</SubType>
+      <Name>AccountsPayable.Demo</Name>
+      <Link>Menu Extensions\AccountsPayable.Demo</Link>
+    </Content>
+    <Content Include="AxMenuItemDisplay\EmplFamilyTableDMI">
+      <SubType>Content</SubType>
+      <Name>EmplFamilyTableDMI</Name>
+      <Link>Display Menu Items\EmplFamilyTableDMI</Link>
+    </Content>
+    <Content Include="AxMenuItemDisplay\EmployeeTableDMl">
+      <SubType>Content</SubType>
+      <Name>EmployeeTableDMl</Name>
+      <Link>Display Menu Items\EmployeeTableDMl</Link>
+    </Content>
+    <Content Include="AxMenuItemOutput\CustTableOutput">
+      <SubType>Content</SubType>
+      <Name>CustTableOutput</Name>
+      <Link>Output Menu Items\CustTableOutput</Link>
+    </Content>
+    <Content Include="AxMenuItemOutput\CustTableQryOutput">
+      <SubType>Content</SubType>
+      <Name>CustTableQryOutput</Name>
+      <Link>Output Menu Items\CustTableQryOutput</Link>
+    </Content>
+    <Content Include="AxMenuItemOutput\CustTransReportMenu">
+      <SubType>Content</SubType>
+      <Name>CustTransReportMenu</Name>
+      <Link>Output Menu Items\CustTransReportMenu</Link>
+    </Content>
+    <Content Include="AxMenuItemOutput\Rama_TaxInvoiceMenu">
+      <SubType>Content</SubType>
+      <Name>Rama_TaxInvoiceMenu</Name>
+      <Link>Output Menu Items\Rama_TaxInvoiceMenu</Link>
+    </Content>
+    <Content Include="AxMenuItemOutput\SalesCommission">
+      <SubType>Content</SubType>
+      <Name>SalesCommission</Name>
+      <Link>Output Menu Items\SalesCommission</Link>
+    </Content>
+    <Content Include="AxQuery\CustTableQry">
+      <SubType>Content</SubType>
+      <Name>CustTableQry</Name>
+      <Link>Simple Queries\CustTableQry</Link>
+    </Content>
+    <Content Include="AxReport\CustTableQryReport">
+      <SubType>Content</SubType>
+      <Name>CustTableQryReport</Name>
+      <Link>Reports\CustTableQryReport</Link>
+    </Content>
+    <Content Include="AxReport\CustTableReport">
+      <SubType>Content</SubType>
+      <Name>CustTableReport</Name>
+      <Link>Reports\CustTableReport</Link>
+    </Content>
+    <Content Include="AxReport\CustTransReport">
+      <SubType>Content</SubType>
+      <Name>CustTransReport</Name>
+      <Link>Reports\CustTransReport</Link>
+    </Content>
+    <Content Include="AxReport\Rama_TaxInvoiceReport">
+      <SubType>Content</SubType>
+      <Name>Rama_TaxInvoiceReport</Name>
+      <Link>Reports\Rama_TaxInvoiceReport</Link>
+    </Content>
+    <Content Include="AxReport\SalesCommissionReport">
+      <SubType>Content</SubType>
+      <Name>SalesCommissionReport</Name>
+      <Link>Reports\SalesCommissionReport</Link>
+    </Content>
+    <Content Include="AxTableExtension\InventSite.Demo">
+      <SubType>Content</SubType>
+      <Name>InventSite.Demo</Name>
+      <Link>Table Extensions\InventSite.Demo</Link>
+    </Content>
+    <Content Include="AxTable\CommissionReportTmp">
+      <SubType>Content</SubType>
+      <Name>CommissionReportTmp</Name>
+      <Link>Tables\CommissionReportTmp</Link>
+    </Content>
+    <Content Include="AxTable\CustTableTmp">
+      <SubType>Content</SubType>
+      <Name>CustTableTmp</Name>
+      <Link>Tables\CustTableTmp</Link>
+    </Content>
+    <Content Include="AxTable\CustTransTmp">
+      <SubType>Content</SubType>
+      <Name>CustTransTmp</Name>
+      <Link>Tables\CustTransTmp</Link>
+    </Content>
+    <Content Include="AxTable\EmployeeFamilyTable">
+      <SubType>Content</SubType>
+      <Name>EmployeeFamilyTable</Name>
+      <Link>Tables\EmployeeFamilyTable</Link>
+    </Content>
+    <Content Include="AxTable\EmployeeTable">
+      <SubType>Content</SubType>
+      <Name>EmployeeTable</Name>
+      <Link>Tables\EmployeeTable</Link>
+    </Content>
+    <Content Include="AxTable\payElementTable">
+      <SubType>Content</SubType>
+      <Name>payElementTable</Name>
+      <Link>Tables\payElementTable</Link>
+    </Content>
+    <Content Include="AxTable\Rama_TaxInvoiceDetailsTmp">
+      <SubType>Content</SubType>
+      <Name>Rama_TaxInvoiceDetailsTmp</Name>
+      <Link>Tables\Rama_TaxInvoiceDetailsTmp</Link>
+    </Content>
+    <Content Include="AxTable\Rama_TaxInvoiceHeaderTmp">
+      <SubType>Content</SubType>
+      <Name>Rama_TaxInvoiceHeaderTmp</Name>
+      <Link>Tables\Rama_TaxInvoiceHeaderTmp</Link>
+    </Content>
+    <Content Include="LabelFile1.en-US.label.txt">
+      <SubType>Content</SubType>
+      <Name>LabelFile1.en-US.label.txt</Name>
+      <DependentUpon>AxLabelFile\LabelFile1_en-US</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
+  <Import Project="$(BuildTasksDirectory)\Microsoft.Dynamics.Framework.Tools.BuildTasks.17.0.targets" />
+</Project>
